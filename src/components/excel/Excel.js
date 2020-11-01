@@ -22,8 +22,7 @@ export class Excel {
   }
 
   render() {
-    // this.$el.insertAdjacentHTML('afterbegin', `<h1>Test</h1>`);
     this.$el.append(this.getRoot());
-    console.log(this.components);
+    this.components.forEach((component) => component.init());
   }
 }
