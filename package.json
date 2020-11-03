@@ -24,6 +24,7 @@
   "homepage": "https://github.com/apelsin16/Pure-JS-study-project#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
     "@babel/polyfill": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "babel-eslint": "^10.1.0",
